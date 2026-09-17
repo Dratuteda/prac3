@@ -1,0 +1,5 @@
+shopping_list = ["яблоко", "груша", "сыр", "сосиска"]
+shopping_list.append("молоко")
+print(shopping_list)
+unique_items = (set(shopping_list))
+print(unique_items) #отличается, потому что в списке выводится значения как ты написал, а множество рамдомно выводятся
